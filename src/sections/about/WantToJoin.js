@@ -2,14 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Container, Row, Col } from "react-bootstrap";
 
-import {
-  Title,
-  Button,
-  Section,
-  Box,
-  Text,
-  Input,
-} from "../../components/Core";
+import { Title, Button, Section, Box, Text } from "../../components/Core";
 
 import imgOval from "../../assets/image/png/l1-cta-oval.png";
 import svgCurve from "../../assets/image/svg/l1-curve-cta.svg";
@@ -26,7 +19,7 @@ const RightCard = styled(Box)`
   right: -275px;
 `;
 
-const CTA = () => (
+const WantToJoin = () => (
   <>
     {/* <!-- WantToJoin section --> */}
     <Section bg="dark" className="position-relative">
@@ -41,28 +34,17 @@ const CTA = () => (
         <img src={svgCurve} alt="" className="img-fluid" />
       </RightCard>
       <Container>
-        <Row className="justify-content-center">
-          <Col lg="7" xl="6">
+        <Row className="justify-content-center text-center">
+          <Col lg="6">
             <Box mb={5} className="text-center">
-              <Title color="light">Get started</Title>
+              <Title color="light">Want to join?</Title>
               <Text color="light" opacity={0.7}>
-                Create custom landing pages with Omega that converts more
-                visitors than any website. With lots of unique blocks, you can
-                easily build a page without coding.
+                Are you interested to join our team? Contact us!
               </Text>
             </Box>
-            <form>
-              <Box mb={3}>
-                <Input type="text" placeholder="Your name" />
-              </Box>
-              <Box mb={3}>
-                <Input type="email" placeholder="Your email" />
-              </Box>
-
-              <Button width="100%" type="submit" borderRadius={10}>
-                Get Started
-              </Button>
-            </form>
+            <Box>
+              <Button>Get in Touch</Button>
+            </Box>
           </Col>
         </Row>
       </Container>
@@ -70,4 +52,4 @@ const CTA = () => (
   </>
 );
 
-export default CTA;
+export default WantToJoin;

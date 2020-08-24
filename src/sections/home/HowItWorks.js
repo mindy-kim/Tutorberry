@@ -136,6 +136,8 @@ const SliderText = styled(Box)`
   flex: auto;
   padding-left: 30px;
   padding-right: 30px;
+  padding-top: 1rem;
+  
   @media ${device.sm} {
     padding-left: 60px;
     padding-right: 0;

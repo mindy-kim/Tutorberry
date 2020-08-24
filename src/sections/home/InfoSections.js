@@ -35,7 +35,7 @@ const InfoSections = () => (
   <>
     <BoxStyled bg="#f6f6f8" pb={["50px!important"]}>
       <Container>
-        <Row className="justify-content-center">
+        <Row className="justify-content-center pt-5">
           <Col lg="4" className="mb-5 mb-lg-4">
             <FeatureCard title="Fully Student Run" iconImage={studentRun}>
               All tutors are experienced highschool students with backgrounds in a variety of subjects.
