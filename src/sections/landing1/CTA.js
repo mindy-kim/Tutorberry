@@ -28,7 +28,7 @@ const RightCard = styled(Box)`
 
 const CTA = () => (
   <>
-    {/* <!-- CTA section --> */}
+    {/* <!-- WantToJoin section --> */}
     <Section bg="dark" className="position-relative">
       <LeftCard
         data-aos="fade-right"

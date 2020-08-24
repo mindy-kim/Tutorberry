@@ -1,16 +1,19 @@
 import React from "react";
 import { Link } from "gatsby";
+import styled from "styled-components";
 
-import imgL1Logo from "../../assets/image/png/l1-logo.png";
-import imgL1LogoWhite from "../../assets/image/png/logo-white.png";
+const SiteTitle = styled.h1`
+  font-size: 2rem !important;
+  color: #21BF73;
+`
 
 const Logo = ({ white, height, className = "", ...rest }) => {
   return (
     <Link to="/" className={`${className}`} {...rest}>
       {white ? (
-        <img src={imgL1LogoWhite} alt="" />
+        <SiteTitle>Tutorberry.</SiteTitle>
       ) : (
-        <img src={imgL1Logo} alt="" />
+        <SiteTitle>Tutorberry.</SiteTitle>
       )}
     </Link>
   );

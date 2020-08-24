@@ -35,7 +35,7 @@ const FeatureCard = ({ iconImage, title, children, ...rest }) => (
 
 const Feature = () => (
   <>
-    {/* <!-- Feature section --> */}
+    {/* <!-- InfoSections section --> */}
     <SectionStyled>
       <Container>
         <Row className="justify-content-center">

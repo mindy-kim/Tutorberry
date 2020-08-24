@@ -16,11 +16,10 @@ const Reviews = () => {
           <Row className="justify-content-center">
             <Col md="9" lg="6" className="text-center">
               <Box className="text-center">
-                <Title>Reviews from readers</Title>
+                <Title>Reviews from Parents</Title>
               </Box>
               <Text mb={4}>
-                Create custom landing pages with Omega that converts more
-                visitors than any website.
+                Reviews from other appreciative parents.
               </Text>
             </Col>
           </Row>
@@ -28,53 +27,31 @@ const Reviews = () => {
             <Col lg="4" md="6" className="mb-4 mb-lg-0">
               <ReviewCard
                 name="Jonathan Taylor"
-                company="From Amazon.com"
                 image={imgR1}
                 stars={5}
               >
-                "You made it so simple. My new site is so much faster and easier
-                to work with than my old site. I just choose the page, make the
-                change and click save."
+                "Review 1 here"
               </ReviewCard>
             </Col>
             <Col lg="4" md="6" className="mb-4 mb-lg-0">
               <ReviewCard
                 name="Paromita Haque"
-                company="From Amazon.com"
                 image={imgR2}
                 stars={4}
               >
-                "Simply the best. Better than all the rest. I’d recommend this
-                product to beginners and advanced users."
+                "Review 1 here"
               </ReviewCard>
             </Col>
             <Col lg="4" md="6" className="mb-4 mb-lg-0">
               <ReviewCard
                 name="Trashee Habbard"
-                company="From Amazon.com"
                 image={imgR3}
                 stars={5}
               >
-                "Must have book for students, who want to be Product Designer,
-                UX Designer, or Interaction Designer."
+                "Review 1 here"
               </ReviewCard>
             </Col>
           </Row>
-          <p
-            className="mb-0 mt-5"
-            css={`
-              font-size: 16px;
-              font-weight: 500;
-              letter-spacing: -0.5px;
-              text-align: center;
-            `}
-          >
-            <a href="/" target="_blank" className="text-decoration-none">
-              <Span color="secondary">
-                Check all 3,583 reviews on Amazon.com
-              </Span>
-            </a>
-          </p>
         </Container>
       </Section>
     </>

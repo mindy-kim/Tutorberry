@@ -68,7 +68,7 @@ const Hero = () => {
 
   return (
     <>
-      {/* <!-- Hero Area --> */}
+      {/* <!-- Banner Area --> */}
       <Section className="position-relative">
         <div className="pt-5"></div>
         <ShapeTopLeft>

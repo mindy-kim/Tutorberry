@@ -15,8 +15,7 @@ const Contact = () => {
     <>
       <PageWrapper footerDark>
         <Hero title="Get in touch">
-          Create custom landing pages with Omega that converts more visitors
-          than any website.
+          Questions? Comments? Give us a ring
         </Hero>
         <Section>
           <Container>

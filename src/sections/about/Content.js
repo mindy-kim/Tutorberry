@@ -26,11 +26,9 @@ const Content = () => (
           </Col>
           <Col lg="6" className="pl-lg-5">
             <Text>
-              Create custom landing pages with Omega that converts more visitors
-              than any website. With lots of unique blocks, you can easily build
-              a page without coding. Create custom landing pages with Omega that
-              converts more visitors than any website. With lots of unique
-              blocks, you can easily build a page without coding.
+              Tutorberry is a student-led online volunteer program that provides free tutoring for students in grades 1 - 8. We understand that this is a confusing and stressful time for many, and we believe that students deserve easy and affordable access to the help needed for education.
+
+
             </Text>
           </Col>
         </Row>

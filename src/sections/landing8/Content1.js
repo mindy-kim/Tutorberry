@@ -60,7 +60,7 @@ const ContentCard = ({
 
 const Content2 = () => (
   <>
-    {/* <!-- Content section --> */}
+    {/* <!-- AvailableSubjects section --> */}
     <Section className="position-relative">
       <Container>
         <Row className="align-items-center">

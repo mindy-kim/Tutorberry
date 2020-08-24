@@ -85,7 +85,7 @@ const ContentCard = ({
 
 const Content2 = () => (
   <>
-    {/* <!-- Content section 2 --> */}
+    {/* <!-- AvailableSubjects section 2 --> */}
     <Section bg="#f7f7fb" className="position-relative">
       <ShapeTop>
         <img src={svgCurve} alt="" className="img-fluid" />

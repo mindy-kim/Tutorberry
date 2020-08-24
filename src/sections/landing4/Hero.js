@@ -33,7 +33,7 @@ const ImgRight = styled(Box)`
 const Hero = () => {
   return (
     <>
-      {/* <!-- Hero Area --> */}
+      {/* <!-- Banner Area --> */}
       <SectionStyled className="position-relative">
         <div className="pt-5"></div>
         <Container>

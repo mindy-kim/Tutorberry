@@ -81,104 +81,28 @@ const Footer = ({ isDark = true }) => {
               </Col>
               <Col lg="10" md="8" className="mt-5 mt-lg-0">
                 <Row>
-                  <Col xs="6" lg="3">
+                  <Col xs="12">
                     <div className="mb-5 mb-lg-4">
                       <TitleStyled
                         variant="card"
                         color={isDark ? "light" : "dark"}
                       >
-                        About
+                        Pages
                       </TitleStyled>
                       <UlStyled color={isDark ? "lightShade" : "darkShade"}>
                         <li>
-                          <a href="/#" target="_blank">
-                            Our mission
+                          <a href="/" target="_blank">
+                            Home
                           </a>
                         </li>
                         <li>
-                          <a href="/#" target="_blank">
-                            Our story
+                          <a href="/about" target="_blank">
+                            About
                           </a>
                         </li>
                         <li>
-                          <a href="/#" target="_blank">
-                            Team Members
-                          </a>
-                        </li>
-                      </UlStyled>
-                    </div>
-                  </Col>
-                  <Col xs="6" lg="3">
-                    <div className="mb-5 mb-lg-4">
-                      <TitleStyled
-                        variant="card"
-                        color={isDark ? "light" : "dark"}
-                      >
-                        Learn
-                      </TitleStyled>
-                      <UlStyled color={isDark ? "lightShade" : "darkShade"}>
-                        <li>
-                          <a href="/#" target="_blank">
-                            Tutorials
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/#" target="_blank">
-                            How it works
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/#" target="_blank">
-                            F.A.Q
-                          </a>
-                        </li>
-                      </UlStyled>
-                    </div>
-                  </Col>
-                  <Col xs="6" lg="3">
-                    <div className="mb-5 mb-lg-4">
-                      <TitleStyled
-                        variant="card"
-                        color={isDark ? "light" : "dark"}
-                      >
-                        Stories
-                      </TitleStyled>
-                      <UlStyled color={isDark ? "lightShade" : "darkShade"}>
-                        <li>
-                          <a href="/#" target="_blank">
-                            Blog
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/#" target="_blank">
-                            Tech stories
-                          </a>
-                        </li>
-                      </UlStyled>
-                    </div>
-                  </Col>
-                  <Col xs="6" lg="3">
-                    <div className="mb-lg-4">
-                      <TitleStyled
-                        variant="card"
-                        color={isDark ? "light" : "dark"}
-                      >
-                        Hire
-                      </TitleStyled>
-                      <UlStyled color={isDark ? "lightShade" : "darkShade"}>
-                        <li>
-                          <a href="/#" target="_blank">
-                            Career
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/#" target="_blank">
-                            Freelancers
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/#" target="_blank">
-                            Trainee
+                          <a href="/contact" target="_blank">
+                            Contact
                           </a>
                         </li>
                       </UlStyled>
@@ -191,7 +115,7 @@ const Footer = ({ isDark = true }) => {
           <CopyRightArea dark={isDark ? 1 : 0}>
             <Row className="align-items-center">
               <Col sm="6" className="text-sm-left text-center mb-2 mb-sm-0">
-                <p>&copy; 2019 UXTheme, All Rights Reserved</p>
+                <p>&copy; 2020 TutorBerry, All Rights Reserved</p>
               </Col>
               <Col sm="6" className="text-sm-right text-center">
                 <ul className="social-icons">

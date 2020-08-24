@@ -4,19 +4,18 @@ import PageWrapper from "../components/PageWrapper";
 import Hero from "../sections/common/Hero";
 import Content from "../sections/about/Content";
 import Team from "../sections/about/Team";
-import CTA from "../sections/about/CTA";
+import WantToJoin from "../sections/about/WantToJoin";
 
 const About = () => {
   return (
     <>
       <PageWrapper>
         <Hero title="About us">
-          Create custom landing pages with Omega that converts more visitors
-          than any website.
+          About our company
         </Hero>
         <Content />
         <Team />
-        <CTA />
+        <WantToJoin />
       </PageWrapper>
     </>
   );

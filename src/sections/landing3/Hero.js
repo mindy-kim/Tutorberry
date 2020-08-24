@@ -73,7 +73,7 @@ const budget = [
 const Hero = () => {
   return (
     <>
-      {/* <!-- Hero Area --> */}
+      {/* <!-- Banner Area --> */}
       <SectionStyled bg="dark">
         <div className="pt-5"></div>
         <ShapeYellow className="d-none d-md-block">

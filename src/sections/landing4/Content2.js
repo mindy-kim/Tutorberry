@@ -47,7 +47,7 @@ const ImgStyled = styled.img`
 
 const Content2 = () => (
   <>
-    {/* <!-- Content section 2 --> */}
+    {/* <!-- AvailableSubjects section 2 --> */}
     <Section>
       <Container>
         <Row className="align-items-center">

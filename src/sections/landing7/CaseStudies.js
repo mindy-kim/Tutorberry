@@ -155,7 +155,7 @@ const CaseCard = ({
 const CaseStudies = () => {
   return (
     <>
-      {/* <!-- Content section --> */}
+      {/* <!-- AvailableSubjects section --> */}
       <Box bg="dark">
         <Container>
           <Row className="justify-content-center">

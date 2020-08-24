@@ -24,7 +24,7 @@ const ShapeCard = styled(Box)`
 
 const Content1 = () => (
   <>
-    {/* <!-- Content section 1 --> */}
+    {/* <!-- AvailableSubjects section 1 --> */}
     <Section>
       <Container>
         <Row className="align-items-center">

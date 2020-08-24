@@ -46,11 +46,9 @@ const Faq = () => (
           <Col lg="6" className="mb-5">
             <FaqCard>
               <div>
-                <FaqTitle>Can I use Omega for my clients?</FaqTitle>
+                <FaqTitle>Question 1?</FaqTitle>
                 <Text variant="small" color="light" opacity={0.7}>
-                  Absolutely. The Envato Theme license allows you to build a
-                  websites for personal use or for a client. User Omega for your
-                  clients.
+                  I have many questions but not many answers.
                 </Text>
               </div>
             </FaqCard>
@@ -58,11 +56,10 @@ const Faq = () => (
           <Col lg="6" className="mb-5">
             <FaqCard>
               <div>
-                <FaqTitle>Do I get free updates?</FaqTitle>
+                <FaqTitle>Question 1?</FaqTitle>
                 <Text variant="small" color="light" opacity={0.7}>
-                  Yes. We update all of our themes regularly, plus are
-                  constantly adding new components, pages, and features to our
-                  themes. Purchase once and get lifetime updates.
+                  I have many questions but not many answers.
+
                 </Text>
               </div>
             </FaqCard>
@@ -70,11 +67,10 @@ const Faq = () => (
           <Col lg="6" className="mb-5">
             <FaqCard>
               <div>
-                <FaqTitle>Does it work with WordPress?</FaqTitle>
+                <FaqTitle>Question 1?</FaqTitle>
                 <Text variant="small" color="light" opacity={0.7}>
-                  Create custom landing pages with Omega that converts more
-                  visitors than any website. With lots of unique blocks, you can
-                  easily build a page without any design or custom coding.
+                  I have many questions but not many answers.
+
                 </Text>
               </div>
             </FaqCard>
@@ -82,11 +78,10 @@ const Faq = () => (
           <Col lg="6" className="mb-5">
             <FaqCard>
               <div>
-                <FaqTitle>Will you provide support?</FaqTitle>
+                <FaqTitle>Question 1?</FaqTitle>
                 <Text variant="small" color="light" opacity={0.7}>
-                  With lots of unique blocks, you can easily build a page
-                  without any design or custom coding. with Omega that converts
-                  more visitors than any website.
+                  I have many questions but not many answers.
+
                 </Text>
               </div>
             </FaqCard>

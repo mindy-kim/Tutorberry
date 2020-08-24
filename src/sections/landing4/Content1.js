@@ -76,7 +76,7 @@ const ULStyled = styled.ul`
 
 const Content1 = () => (
   <>
-    {/* <!-- Content section 1 --> */}
+    {/* <!-- AvailableSubjects section 1 --> */}
     <Section
       bg="#F7F7FB"
       className="position-relative"

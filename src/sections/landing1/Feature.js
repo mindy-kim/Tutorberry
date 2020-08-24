@@ -65,7 +65,7 @@ const FeatureCard = ({
 
 const Feature = () => (
   <>
-    {/* <!-- Feature section --> */}
+    {/* <!-- InfoSections section --> */}
     <Section bg="secondary" className="position-relative">
       <ShapeTopRight
         data-aos="fade-left"

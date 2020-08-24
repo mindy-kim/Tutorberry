@@ -1,9 +1,8 @@
 import React from "react";
-import Hero from "../sections/home/Hero";
-import Testimonial from "../sections/home/Testimonial";
-import Feature from "../sections/home/Feature";
-import Content from "../sections/home/Content";
-import Fact from "../sections/home/Fact";
+import Banner from "../sections/home/Banner";
+import HowItWorks from "../sections/home/HowItWorks";
+import InfoSections from "../sections/home/InfoSections";
+import AvailableSubjects from "../sections/home/AvailableSubjects";
 import Reviews from "../sections/home/Reviews";
 import Author from "../sections/home/Author";
 import Offer from "../sections/home/Offer";
@@ -15,14 +14,12 @@ const LandingPage = () => {
   return (
     <>
       <PageWrapper>
-        <Hero />
-        <Testimonial />
-        <Feature />
-        <Content />
+        <Banner />
+        <HowItWorks />
+        <InfoSections />
+        <AvailableSubjects />
         <Offer />
-        <Fact />
         <Reviews />
-        <Author />
         <Faq />
         <CTA />
       </PageWrapper>

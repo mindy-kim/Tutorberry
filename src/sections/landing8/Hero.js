@@ -90,7 +90,7 @@ const Hero = () => {
 
   return (
     <>
-      {/* <!-- Hero Area --> */}
+      {/* <!-- Banner Area --> */}
       <Section bg="secondary" className="position-relative">
         <div className="pt-5"></div>
         <Container>

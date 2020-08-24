@@ -57,7 +57,7 @@ const ImageBottom = styled(Box)`
 const Hero = () => {
   return (
     <>
-      {/* <!-- Hero Area --> */}
+      {/* <!-- Banner Area --> */}
       <SectionStyled>
         <div className="pt-5"></div>
         <Container>

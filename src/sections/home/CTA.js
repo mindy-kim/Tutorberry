@@ -15,10 +15,9 @@ const CTA = () => (
         <Row>
           <Col lg="8" xl="7">
             <div className="py-4">
-              <Title>Learn problem solving</Title>
+              <Title>Help your child succeed today!</Title>
               <Text>
-                Create custom landing pages with Omega that converts more
-                visitors than any website.
+                Get your free tutoring session today and help your child succeed academically despite COVID difficulties.
               </Text>
             </div>
           </Col>
@@ -28,7 +27,7 @@ const CTA = () => (
             className="d-flex align-items-center justify-content-lg-end mt-4 mt-md-0"
           >
             <div>
-              <Button>Get this book</Button>
+              <Button>Register Now</Button>
             </div>
           </Col>
         </Row>

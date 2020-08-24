@@ -43,15 +43,14 @@ const Offer = () => (
             </div>
             <div className="pt-3 pl-5">
               <Title variant="card" fontSize="24px" color="light" mb={3}>
-                Get a free chapter of this book
+                Register Today
               </Title>
               <Text color="lightShade" fontSize="18px" lineHeight="28px">
-                Create custom landing pages with Omega <br /> that converts more
-                visitors than any website.
+                Get started with a free tutoring session today <br /> to help your kid succeed academically.
               </Text>
             </div>
             <BtnContainer>
-              <Button>Get a free chapter</Button>
+              <Button>Register Today</Button>
             </BtnContainer>
           </div>
         </OfferWrapper>

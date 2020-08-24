@@ -5,7 +5,7 @@ import { Title, Button, Box, Text } from "../../components/Core";
 
 const CTA = () => (
   <>
-    {/* <!-- CTA section --> */}
+    {/* <!-- WantToJoin section --> */}
     <Box bg="dark" className="position-relative" py={[4, null, null, 5, 6]}>
       <Container>
         <Row className="justify-content-center">

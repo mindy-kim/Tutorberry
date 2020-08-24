@@ -45,7 +45,7 @@ const FeatureCard = ({
 
 const Feature = () => (
   <>
-    {/* <!-- Feature section --> */}
+    {/* <!-- InfoSections section --> */}
     <Section className="position-relative pt-5" bg="dark">
       <Container>
         <Row className="align-items-center justify-content-center">

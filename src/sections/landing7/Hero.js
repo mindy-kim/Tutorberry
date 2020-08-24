@@ -6,7 +6,7 @@ import { Title, Button, Section, Box, Text } from "../../components/Core";
 const Hero = () => {
   return (
     <>
-      {/* <!-- Hero Area --> */}
+      {/* <!-- Banner Area --> */}
       <Section bg="dark">
         <div className="pt-5"></div>
         <Container

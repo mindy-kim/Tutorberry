@@ -68,7 +68,7 @@ const ContentCard = ({ children = "" }) => {
 const Content = () => {
   return (
     <>
-      {/* <!-- Content section --> */}
+      {/* <!-- AvailableSubjects section --> */}
       <SectionStyled bg="dark">
         <Container>
           <Row className="justify-content-center mb-5">
