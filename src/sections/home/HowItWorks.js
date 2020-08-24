@@ -148,7 +148,7 @@ const SliderText = styled(Box)`
   }
 `;
 
-const Testimonial = () => {
+const HowItWorks = () => {
   const slickSettings = {
     dots: false,
     infinite: true,
@@ -174,11 +174,10 @@ const Testimonial = () => {
           <Row className="justify-content-center mb-4">
             <Col lg="10">
               <div className="text-center">
-                <Title>Chapters we’ve covered</Title>
+                <Title>How it Works</Title>
                 <Text>
-                  Create custom landing pages with Omega that converts{" "}
-                  <br className="d-none d-md-block" /> more visitors than any
-                  website.
+                  How our volunteer based organization can provide{" "}
+                  <br className="d-none d-md-block" /> free tutoring to students.
                 </Text>
               </div>
             </Col>
@@ -193,15 +192,16 @@ const Testimonial = () => {
                     </NumberBlock>
                     <SliderText>
                       <Text variant="small" color="secondary">
-                        Chapter 01
+                        STEP 01
                       </Text>
                       <Title variant="card" fontSize="24px" mb={4} mt={2}>
-                        What is problem solving?
+                        Sign Up to get Matched
                       </Title>
                       <Text color="dark">
-                        Create custom landing pages with Omega that converts
-                        more visitors than any website. With lots of unique
-                        blocks, you can easily build a page without coding.
+                        Lorem Ipsum is the single greatest threat. We are not - we are not keeping up with other websites.
+                        Lorem Ipsum best not make any more threats to your website.
+                        It will be met with fire and fury like the world has never seen.
+                        Does everybody know that pig named Lorem Ipsum?
                       </Text>
                     </SliderText>
                   </SliderCard>
@@ -213,15 +213,16 @@ const Testimonial = () => {
                     </NumberBlock>
                     <SliderText>
                       <Text variant="small" color="secondary">
-                        Chapter 02
+                        STEP 02
                       </Text>
                       <Title variant="card" fontSize="24px" mb={4} mt={2}>
-                        What is problem solving?
+                        The Tutor Contacts you about Subjects.
                       </Title>
                       <Text color="dark">
-                        Create custom landing pages with Omega that converts
-                        more visitors than any website. With lots of unique
-                        blocks, you can easily build a page without coding.
+                        Lorem Ipsum is the single greatest threat. We are not - we are not keeping up with other websites.
+                        Lorem Ipsum best not make any more threats to your website.
+                        It will be met with fire and fury like the world has never seen.
+                        Does everybody know that pig named Lorem Ipsum?
                       </Text>
                     </SliderText>
                   </SliderCard>
@@ -233,15 +234,16 @@ const Testimonial = () => {
                     </NumberBlock>
                     <SliderText>
                       <Text variant="small" color="secondary">
-                        Chapter 03
+                        STEP 02
                       </Text>
                       <Title variant="card" fontSize="24px" mb={4} mt={2}>
-                        What is problem solving?
+                        We get your first session registered!
                       </Title>
                       <Text color="dark">
-                        Create custom landing pages with Omega that converts
-                        more visitors than any website. With lots of unique
-                        blocks, you can easily build a page without coding.
+                        Lorem Ipsum is the single greatest threat. We are not - we are not keeping up with other websites.
+                        Lorem Ipsum best not make any more threats to your website.
+                        It will be met with fire and fury like the world has never seen.
+                        Does everybody know that pig named Lorem Ipsum?
                       </Text>
                     </SliderText>
                   </SliderCard>
@@ -255,4 +257,4 @@ const Testimonial = () => {
   );
 };
 
-export default Testimonial;
+export default HowItWorks;
