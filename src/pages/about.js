@@ -11,7 +11,7 @@ const About = () => {
     <>
       <PageWrapper>
         <Hero title="About us">
-          About our company
+          About Tutorberry
         </Hero>
         <Content />
         <Team />
