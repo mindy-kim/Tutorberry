@@ -15,13 +15,6 @@ const LandingPage = () => {
     <>
       <PageWrapper>
         <Banner />
-        <HowItWorks />
-        <InfoSections />
-        <AvailableSubjects />
-        <Offer />
-        <Reviews />
-        <Faq />
-        <CTA />
       </PageWrapper>
     </>
   );
