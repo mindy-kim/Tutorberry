@@ -52,28 +52,12 @@ const Contact = () => {
               </Col>
               <Col
                 lg={5}
-                className="offset-lg-1 order-lg-2 mt-5 mt-lg-0 pt-lg-5"
-              >
-                <Box className="mb-5">
-                  <Title variant="card" fontSize="24px">
-                    Call us
-                  </Title>
-                  <Text>+1-492-4918-395</Text>
-                  <Text>+14-394-409-591</Text>
-                </Box>
+                className="offset-lg-1 order-lg-2 mt-5 mt-lg-0 pt-lg-5">
                 <Box className="mb-5">
                   <Title variant="card" fontSize="24px">
                     Email us
                   </Title>
-                  <Text>info@mail.com</Text>
-                  <Text>support@mail.com</Text>
-                </Box>
-                <Box className="mb-5">
-                  <Title variant="card" fontSize="24px">
-                    Contact us
-                  </Title>
-                  <Text>34 Madison Street,</Text>
-                  <Text>NY, USA 10005</Text>
+                  <Text>tutorberryvolunteer@gmail.com</Text>
                 </Box>
               </Col>
             </Row>
