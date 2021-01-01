@@ -4,11 +4,11 @@ export const menuItems = [
     label: "Home",
   },
   {
-    name: "",
+    name: "student",
     label: "Student",
   },
   {
-    name: "",
+    name: "volunteer",
     label: "Volunteer",
   },
   {
