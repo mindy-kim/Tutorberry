@@ -1,5 +1,4 @@
 import React from "react";
-import Banner from "../sections/home/Banner";
 import HowItWorks from "../sections/home/HowItWorks";
 import InfoSections from "../sections/home/InfoSections";
 import AvailableSubjects from "../sections/home/AvailableSubjects";
@@ -14,7 +13,6 @@ const LandingPage = () => {
   return (
     <>
       <PageWrapper>
-        <Banner />
         <HowItWorks />
         <InfoSections />
         <AvailableSubjects />
