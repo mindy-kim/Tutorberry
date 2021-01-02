@@ -108,7 +108,7 @@ const Banner = () => {
                     </ULStyled>
                   </Box>
                   <div className="d-flex flex-column align-items-start pt-2">
-                    <Button onclick="location.href='https://forms.gle/F9Z2sgAHBV693JVg6'" mb={2}>Register for FREE Tutoring</Button>
+                    <Button onclick="window.location.href='https://forms.gle/F9Z2sgAHBV693JVg6'" mb={2}>Register for FREE Tutoring</Button>
                   </div>
                 </Box>
               </div>
