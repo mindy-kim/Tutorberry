@@ -1,5 +1,5 @@
 import React from "react";
-import HowItWorks from "../sections/volunteer/HowItWorks1";
+import HowItWorks from "../sections/volunteer/HowItWorks1.js";
 import InfoSections from "../sections/volunteer/InfoSections1";
 import AvailableSubjects from "../sections/volunteer/AvailableSubjects1";
 import Reviews from "../sections/volunteer/Reviews1";
