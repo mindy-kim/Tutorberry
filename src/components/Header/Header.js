@@ -359,7 +359,7 @@ const Header = ({ isDark = false }) => {
                 </Menu>
               </div>
             </div>
-            <div className="header-btns ml-auto ml-lg-0 d-none d-md-block">
+            <!--<div className="header-btns ml-auto ml-lg-0 d-none d-md-block">
               <Button
                 size="sm"
                 css={`
@@ -370,7 +370,7 @@ const Header = ({ isDark = false }) => {
               >
                 Get Started
               </Button>
-            </div>
+            </div>-->
             <ToggleButton
               className={`navbar-toggler btn-close-off-canvas ml-3 ${
                 gContext.visibleOffCanvas ? "collapsed" : ""
