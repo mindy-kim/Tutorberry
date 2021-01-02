@@ -1,12 +1,12 @@
 import React from "react";
-import HowItWorks from "../sections/volunteer/HowItWorks";
-import InfoSections from "../sections/volunteer/InfoSections";
-import AvailableSubjects from "../sections/volunteer/AvailableSubjects";
-import Reviews from "../sections/volunteer/Reviews";
-import Author from "../sections/volunteer/Author";
-import Offer from "../sections/volunteer/Offer";
-import Faq from "../sections/volunteer/Faq";
-import CTA from "../sections/volunteer/CTA";
+import HowItWorks from "../sections/volunteer/HowItWorks1";
+import InfoSections from "../sections/volunteer/InfoSections1";
+import AvailableSubjects from "../sections/volunteer/AvailableSubjects1";
+import Reviews from "../sections/volunteer/Reviews1";
+import Author from "../sections/volunteer/Author1";
+import Offer from "../sections/volunteer/Offer1";
+import Faq from "../sections/volunteer/Faq1";
+import CTA from "../sections/volunteer/CTA1";
 import PageWrapper from "../components/PageWrapper";
 
 const LandingPage = () => {
