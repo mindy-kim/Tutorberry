@@ -57,7 +57,7 @@ const ContentCard = ({ children = "" }) => {
   );
 };
 
-const { home: { available_subjects}} = data;
+const { student: { available_subjects}} = data;
 
 const AvailableSubjects = () => {
   return (
