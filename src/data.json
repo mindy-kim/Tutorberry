@@ -9,6 +9,31 @@
       ],
       "button": "Register for FREE Tutoring"
     },
+    
+    "info_section": {
+      "features": [
+        {
+          "title": "Fully Student Run",
+          "description": "All tutors are experienced highschool students with backgrounds in a variety of subjects.\n              Every tutor has the experience and education necessary to guide students through their selected subjects."
+        },
+        {
+          "title": "Virtual Sessions",
+          "description": "Sessions will occur on a regular basis and require both the tutor and student to meet on scheduled video calls.\n              Communication is crucial, and the Tutorberry team will maintain close contact and always be open for questions and concerns."   },
+        {
+          "title": "Wide Variety of Subjects",
+          "description": "Our tutors are experienced in and prepared to teach a variety of subjects, including mathematics, language arts, science, social studies/history, and foreign language.\n              Depending on your tutor, certain subtopics and advanced levels will be available."
+        }
+      ]
+    },
+    "offer": {
+      "title": "Student Registration",
+      "subtitle": "Get started on your journey to academic success with your own personal tutor.\n",
+      "button": "Register Today"
+    },
+    
+  },
+  
+  "student": {
     "how_it_works": {
       "title": "How it Works",
       "subtitle": "All students must follow this process in order to get started with our program.",
@@ -28,32 +53,12 @@
         }
       ]
     },
-    "info_section": {
-      "features": [
-        {
-          "title": "Fully Student Run",
-          "description": "All tutors are experienced highschool students with backgrounds in a variety of subjects.\n              Every tutor has the experience and education necessary to guide students through their selected subjects."
-        },
-        {
-          "title": "Virtual Sessions",
-          "description": "Sessions will occur on a regular basis and require both the tutor and student to meet on scheduled video calls.\n              Communication is crucial, and the Tutorberry team will maintain close contact and always be open for questions and concerns."   },
-        {
-          "title": "Wide Variety of Subjects",
-          "description": "Our tutors are experienced in and prepared to teach a variety of subjects, including mathematics, language arts, science, social studies/history, and foreign language.\n              Depending on your tutor, certain subtopics and advanced levels will be available."
-        }
-      ]
-    },
     "available_subjects": {
       "title": "Available Subjects",
       "subtitle": "Create custom landing pages with Omega that converts",
       "subjects": [
         "Mathematics", "Language Arts", "Science" , "Social Studies/History" , "Foreign Language"
       ]
-    },
-    "offer": {
-      "title": "Student Registration",
-      "subtitle": "Get started on your journey to academic success with your own personal tutor.\n",
-      "button": "Register Today"
     },
     "reviews": {
       "title": "Reviews from Parents",
@@ -64,7 +69,43 @@
         "Julie is an amazing tutor my son loves her and she helps him so much. He is learning a lot and she quizzes him on his multiplication facts. She’s sweet and kind."
       ]
     },
-    "faq": {
+    "cta": {
+      "title": "Help your child succeed today!",
+      "subtitle": "                Begin your journey to academic success with your personal tutor.\n",
+      "button": "Register Now"
+      }
+    },
+  },
+  
+  "about": {
+    "title": "About Us",
+    "subtitle": "About our company",
+    "Content": {
+      "title": "              Our mission is to make your life easier.\n",
+      "subtitle": "Tutorberry is a student-led online volunteer program that provides free tutoring for students in grades 1 - 8. We understand that this is a confusing and stressful time for many, and we believe that students deserve easy and affordable access to the help needed for education.\n"
+    }
+  },
+  
+  "team": {
+    "title": "Meet the Team",
+    "subtitle": "Meet our awesome group of students",
+    "team": [
+      {
+        "name": "Louise Elliott",
+        "title": "Founder and CEO"
+      },
+      {
+        "name": "Louise Elliott",
+        "title": "Founder and CEO"
+      },
+      {
+        "name": "Louise Elliott",
+        "title": "Founder and CEO"
+      }
+    ]
+  },
+  
+  "faq": {
       "student_questions": {
           "questions": [
             {
@@ -115,41 +156,11 @@
             }
           ]
       }
-    },
-    "cta": {
-      "title": "Help your child succeed today!",
-      "subtitle": "                Begin your journey to academic success with your personal tutor.\n",
-      "button": "Register Now"
-    }
   },
-  "about": {
-    "title": "About Us",
-    "subtitle": "About our company",
-    "Content": {
-      "title": "              Our mission is to make your life easier.\n",
-      "subtitle": "Tutorberry is a student-led online volunteer program that provides free tutoring for students in grades 1 - 8. We understand that this is a confusing and stressful time for many, and we believe that students deserve easy and affordable access to the help needed for education.\n"
-    }
-  },
-  "team": {
-    "title": "Meet the Team",
-    "subtitle": "Meet our awesome group of students",
-    "team": [
-      {
-        "name": "Louise Elliott",
-        "title": "Founder and CEO"
-      },
-      {
-        "name": "Louise Elliott",
-        "title": "Founder and CEO"
-      },
-      {
-        "name": "Louise Elliott",
-        "title": "Founder and CEO"
-      }
-    ]
-  },
+
   "contact": {
     "phone": "+1-492-4918-395",
     "email": "+1-492-4918-395"
-  }
+  },
+
 }
