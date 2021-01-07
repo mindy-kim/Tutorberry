@@ -10,14 +10,14 @@ import Hero from "../sections/common/Hero";
 import data from "../data.json";
 
 const FormStyled = styled.form``;
-const { contact: {phone, email}} = data;
+const { contact: { email}} = data;
 
 const Contact = () => {
   return (
     <>
       <PageWrapper footerDark>
         <Hero title="Get in touch">
-          Questions? Comments? Give us a ring
+          Questions? Comments? Send us an email
         </Hero>
         <Section>
           <Container>
