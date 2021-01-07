@@ -55,7 +55,7 @@
     },
     "available_subjects": {
       "title": "Available Subjects",
-      "subtitle": "Create custom landing pages with Omega that converts",
+      "subtitle": "These are the core subjects that our tutors offer. Your tutor may teach one or all of these subjects, including subtopics and advanced levels.",
       "subjects": [
         "Mathematics", "Language Arts", "Science" , "Social Studies/History" , "Foreign Language"
       ]
