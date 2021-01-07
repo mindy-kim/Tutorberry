@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { Container, Row, Col } from "react-bootstrap";
 
 import { Title, Section, Box, Text } from "../../components/Core";
+import data from "../../data.json";
 
 const SectionStyled = styled(Section)``;
 
@@ -36,6 +37,7 @@ const FaqTitle = styled(Title)`
   margin-bottom: 24px;
   line-height: 2rem;
 `;
+const { home: { faq: {questions}}} = data;
 
 const Faq = () => (
   <>
@@ -43,49 +45,18 @@ const Faq = () => (
     <SectionStyled bg="ash">
       <Container>
         <Row>
-          <Col lg="6" className="mb-5">
-            <FaqCard>
-              <div>
-                <FaqTitle>Question 1?</FaqTitle>
-                <Text variant="small" color="light" opacity={0.7}>
-                  I have many questions but not many answers.
-                </Text>
-              </div>
-            </FaqCard>
-          </Col>
-          <Col lg="6" className="mb-5">
-            <FaqCard>
-              <div>
-                <FaqTitle>Question 1?</FaqTitle>
-                <Text variant="small" color="light" opacity={0.7}>
-                  I have many questions but not many answers.
-
-                </Text>
-              </div>
-            </FaqCard>
-          </Col>
-          <Col lg="6" className="mb-5">
-            <FaqCard>
-              <div>
-                <FaqTitle>Question 1?</FaqTitle>
-                <Text variant="small" color="light" opacity={0.7}>
-                  I have many questions but not many answers.
-
-                </Text>
-              </div>
-            </FaqCard>
-          </Col>
-          <Col lg="6" className="mb-5">
-            <FaqCard>
-              <div>
-                <FaqTitle>Question 1?</FaqTitle>
-                <Text variant="small" color="light" opacity={0.7}>
-                  I have many questions but not many answers.
-
-                </Text>
-              </div>
-            </FaqCard>
-          </Col>
+          {
+            questions.map(question => <Col lg="6" className="mb-5">
+              <FaqCard>
+                <div>
+                  <FaqTitle>{question.title}</FaqTitle>
+                  <Text variant="small" color="light" opacity={0.7}>
+                    {question.answer}
+                  </Text>
+                </div>
+              </FaqCard>
+            </Col>)
+          }
         </Row>
       </Container>
     </SectionStyled>
