@@ -28,12 +28,14 @@
   },
   
   "about": {
-    "title": "About Us",
-    "subtitle": "About our company",
-    "Content": {
-      "title": "              Our mission is to make your life easier.\n",
-      "subtitle": "Tutorberry is a student-led online volunteer program that provides free tutoring for students in grades 1 - 8. We understand that this is a confusing and stressful time for many, and we believe that students deserve easy and affordable access to the help needed for education.\n"
-    }
+    "about us": {
+      "title": "About Us",
+      "subtitle": "About our company",
+      "Content": {
+        "title": "              Our mission is to make your life easier.\n",
+        "subtitle": "Tutorberry is a student-led online volunteer program that provides free tutoring for students in grades 1 - 8. We understand that this is a confusing and stressful time for many, and we believe that students deserve easy and affordable access to the help needed for education.\n"
+      }
+    },
     
     "team": {
        "title": "Meet the Team",
@@ -53,13 +55,6 @@
         }
       ]
     },
-  },
-  
-
-  
-  "contact": {
-    "phone": "+1-492-4918-395",
-    "email": "+1-492-4918-395"
   },
   
   "student": {
@@ -121,4 +116,10 @@
       "button": "Register Now"
     }
   },
+  
+  "contact": {
+    "phone": "+1-492-4918-395",
+    "email": "+1-492-4918-395"
+  },
+  
 }
