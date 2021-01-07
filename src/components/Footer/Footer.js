@@ -120,17 +120,17 @@ const Footer = ({ isDark = true }) => {
               <Col sm="6" className="text-sm-right text-center">
                 <ul className="social-icons">
                   <li>
-                    <a href="/#" target="_blank">
+                    <a href="https://www.instagram.com/tutorberry/" target="_blank" rel="noopener noreferrer">
                       <i className="icon icon-logo-instagram"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="/#" target="_blank">
+                    <a href="https://www.linkedin.com/company/tutorberry" target="_blank" rel="noopener noreferrer">
                       <i className="icon icon-logo-linkedin"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="/#" target="_blank">
+                    <a href="https://www.facebook.com/tutor.berry.14/" target="_blank" rel="noopener noreferrer">
                       <i className="icon icon-logo-facebook"></i>
                     </a>
                   </li>
