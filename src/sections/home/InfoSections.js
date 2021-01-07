@@ -10,7 +10,8 @@ import subjects from "../../assets/image/svg/subjects.svg";
 import data from '../../data.json';
 
 const BoxStyled = styled(Box)`
-  border-bottom: 1px solid #eae9f2;
+  padding: 1rem 0;
+  
 `;
 
 const IconImage = styled.img`
