@@ -74,7 +74,7 @@
       "subtitle": "                Begin your journey to academic success with your personal tutor.\n",
       "button": "Register Now"
       }
-    },
+    }
   },
   
   "about": {
@@ -103,7 +103,7 @@
           "title": "Founder and CEO"
         }
       ]
-    },
+    }
   },
     
   "faq": {
@@ -154,7 +154,7 @@
               "answer": "Many questions"
             }
           ]
-      },
+      }
   },
 
   "contact": {
