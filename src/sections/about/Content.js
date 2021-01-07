@@ -6,6 +6,7 @@ import { Title, Section, Box, Text } from "../../components/Core";
 
 import imgContent1 from "../../assets/image/jpeg/easy-image-2-1.jpg";
 import imgContent2 from "../../assets/image/jpeg/easy-image-2-2.jpg";
+import data from "../../data.json";
 
 const ContentImg = styled(Box)`
   box-shadow: ${({ theme }) => `0 42px 54px ${theme.colors.shadow}`};
@@ -13,6 +14,7 @@ const ContentImg = styled(Box)`
   overflow: hidden;
   max-height: 515px;
 `;
+const { about: {Content: {title, subtitle}}} = data;
 
 const Content = () => (
   <>
@@ -21,14 +23,12 @@ const Content = () => (
         <Row className="justify-content-center pb-4">
           <Col lg="6">
             <Title variant="hero">
-              Our mission is to make your life easier.
+              {title}
             </Title>
           </Col>
           <Col lg="6" className="pl-lg-5">
             <Text>
-              Tutorberry is a student-led online volunteer program that provides free tutoring for students in grades 1 - 8. We understand that this is a confusing and stressful time for many, and we believe that students deserve easy and affordable access to the help needed for education.
-
-
+              {subtitle}
             </Text>
           </Col>
         </Row>
