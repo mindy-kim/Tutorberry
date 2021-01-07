@@ -7,7 +7,7 @@ import Team from "../sections/about/Team";
 import WantToJoin from "../sections/about/WantToJoin";
 import data from "../data.json";
 
-const { about: {title, subtitle}} = data;
+const { about: about_us: {{title, subtitle}}} = data;
 
 const About = () => {
   return (
