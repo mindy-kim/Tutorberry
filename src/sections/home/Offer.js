@@ -31,7 +31,7 @@ const BtnContainer = styled(Box)`
   }
 `;
 
-const { student: { offer}} = data;
+const { home: { offer}} = data;
 
 
 const Offer = () => (
