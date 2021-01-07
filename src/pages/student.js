@@ -1,6 +1,5 @@
 import React from "react";
 import HowItWorks from "../sections/student/HowItWorks";
-import InfoSections from "../sections/student/InfoSections";
 import AvailableSubjects from "../sections/student/AvailableSubjects";
 import Reviews from "../sections/student/Reviews";
 import Offer from "../sections/student/Offer";
@@ -13,7 +12,6 @@ const LandingPage = () => {
     <>
       <PageWrapper>
         <HowItWorks />
-        <InfoSections />
         <AvailableSubjects />
         <Offer />
         <Reviews />
