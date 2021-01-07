@@ -5,6 +5,7 @@ import { Container } from "react-bootstrap";
 import { Title, Button, Section, Box, Text } from "../../components/Core";
 import { device } from "../../utils";
 import imgOfferBook from "../../assets/image/png/l6-offer-book.png";
+import data from "../../data.json";
 
 const SectionStyled = styled(Section)`
   padding-bottom: 100px;
@@ -23,13 +24,15 @@ const OfferWrapper = styled(Box)`
 const BtnContainer = styled(Box)`
   margin-left: 45px;
   margin-top: 30px;
-
   @media ${device.lg} {
     margin-left: auto;
     margin-top: auto;
     margin-bottom: auto;
   }
 `;
+
+const { home: { offer}} = data;
+
 
 const Offer = () => (
   <>
@@ -43,14 +46,14 @@ const Offer = () => (
             </div>
             <div className="pt-3 pl-5">
               <Title variant="card" fontSize="24px" color="light" mb={3}>
-                Register Today
+                {offer.title}
               </Title>
               <Text color="lightShade" fontSize="18px" lineHeight="28px">
-                Get started with a free tutoring session today <br /> to help your kid succeed academically.
+                {offer.subtitle}
               </Text>
             </div>
             <BtnContainer>
-              <Button>Register Today</Button>
+              <Button>{offer.button}</Button>
             </BtnContainer>
           </div>
         </OfferWrapper>
