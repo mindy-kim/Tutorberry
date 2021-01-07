@@ -1,7 +1,7 @@
 import React from "react";
 import Banner from "../sections/home/Banner";
 import PageWrapper from "../components/PageWrapper";
-import InfoSections from "../sections/student/InfoSections";
+import InfoSections from "../sections/home/InfoSections";
 
 const LandingPage = () => {
   return (
