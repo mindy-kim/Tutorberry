@@ -9,7 +9,7 @@ import imgR2 from "../../assets/image/jpeg/reviewer2.jpg";
 import imgR3 from "../../assets/image/jpeg/reviewer3.jpg";
 import data from "../../data.json";
 
-const { home: { reviews}} = data;
+const { student: { reviews}} = data;
 
 const Reviews = () => {
   return (
