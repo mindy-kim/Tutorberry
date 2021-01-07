@@ -37,7 +37,7 @@ const FaqTitle = styled(Title)`
   margin-bottom: 24px;
   line-height: 2rem;
 `;
-const { faq: {student_questions: {questions}}} = data;
+const { faq: {volunteer_questions: {questions}}} = data;
 
 const Faq = () => (
   <>
