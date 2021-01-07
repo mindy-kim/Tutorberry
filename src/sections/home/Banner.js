@@ -4,7 +4,7 @@ import { rgba } from "polished";
 import { Container, Row, Col } from "react-bootstrap";
 import data from '../../data.json';
 
-import { Title, Button, Section, Box, Text, Span } from "../../components/Core";
+import { Title, Button, Section, Box} from "../../components/Core";
 
 import { device } from "../../utils";
 
@@ -31,7 +31,6 @@ const ULStyled = styled.ul`
   margin: 0;
   padding-top: 0;
   padding-left: 0;
-
   li {
     &:nth-child(odd) {
       @media ${device.sm} {
@@ -45,7 +44,6 @@ const ULStyled = styled.ul`
     line-height: 50px;
     display: flex;
     margin-bottom: 5px;
-
     &:before {
       content: "\f00c";
       font-family: "Font Awesome 5 Free";
@@ -67,7 +65,6 @@ const ULStyled = styled.ul`
     }
   }
 `;
-
 const { home: { banner }} = data;
 
 const Banner = () => {
@@ -100,8 +97,7 @@ const Banner = () => {
               >
                 <Box pt={[4, null, null, 0]} pl={5}>
                   <Title>
-                    Free Online Tutoring <br className="d-none d-sm-block" />
-                    for K-12 Students.
+                    {banner.title}
                   </Title>
                   <Box mb={3}>
                     <ULStyled>
