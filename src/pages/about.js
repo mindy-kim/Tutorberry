@@ -18,7 +18,6 @@ const About = () => {
         </Hero>
         <Content />
         <Team />
-        <WantToJoin />
       </PageWrapper>
     </>
   );
