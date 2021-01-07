@@ -30,7 +30,6 @@
       "subtitle": "Get started on your journey to academic success with your own personal tutor.\n",
       "button": "Register Today"
     },
-    
   },
   
   "student": {
@@ -78,33 +77,34 @@
   },
   
   "about": {
-    "title": "About Us",
-    "subtitle": "About our company",
-    "Content": {
-      "title": "              Our mission is to make your life easier.\n",
-      "subtitle": "Tutorberry is a student-led online volunteer program that provides free tutoring for students in grades 1 - 8. We understand that this is a confusing and stressful time for many, and we believe that students deserve easy and affordable access to the help needed for education.\n"
-    }
-  },
-  
-  "team": {
-    "title": "Meet the Team",
-    "subtitle": "Meet our awesome group of students",
-    "team": [
-      {
-        "name": "Louise Elliott",
-        "title": "Founder and CEO"
-      },
-      {
-        "name": "Louise Elliott",
-        "title": "Founder and CEO"
-      },
-      {
-        "name": "Louise Elliott",
-        "title": "Founder and CEO"
+    "about_us": {
+      "title": "About Us",
+      "subtitle": "About our company",
+      "Content": {
+        "title": "              Our mission is to make your life easier.\n",
+        "subtitle": "Tutorberry is a student-led online volunteer program that provides free tutoring for students in grades 1 - 8. We understand that this is a confusing and stressful time for many, and we believe that students deserve easy and affordable access to the help needed for education.\n"
       }
-    ]
+    },
+    "team": {
+      "title": "Meet the Team",
+      "subtitle": "Meet our awesome group of students",
+      "team": [
+        {
+          "name": "Louise Elliott",
+          "title": "Founder and CEO"
+        },
+        {
+          "name": "Louise Elliott",
+          "title": "Founder and CEO"
+        },
+        {
+          "name": "Louise Elliott",
+          "title": "Founder and CEO"
+        }
+      ]
+    },
   },
-  
+    
   "faq": {
       "student_questions": {
           "questions": [
@@ -127,7 +127,6 @@
             {
               "title": "How will sessions be scheduled and organized?",
               "answer": "Many questions"
-
             }
           ]
       },
@@ -152,15 +151,13 @@
             {
               "title": "How will sessions be scheduled and organized?",
               "answer": "Many questions"
-
             }
           ]
-      }
+      },
   },
 
   "contact": {
-    "phone": "+1-492-4918-395",
-    "email": "+1-492-4918-395"
+    "email": "tutorberryvolunteer@gmail.com"
   },
 
 }
