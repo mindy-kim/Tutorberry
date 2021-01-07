@@ -4,6 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 import { Title, Section, Box, Text } from "../../components/Core";
 import { device } from "../../utils";
+import data from "../../data.json";
 
 const SectionStyled = styled(Section)``;
 
@@ -56,6 +57,8 @@ const ContentCard = ({ children = "" }) => {
   );
 };
 
+const { home: { available_subjects}} = data;
+
 const AvailableSubjects = () => {
   return (
     <>
@@ -65,131 +68,29 @@ const AvailableSubjects = () => {
           <Row className="justify-content-center mb-5">
             <Col lg="9">
               <div className="text-center">
-                <Title>Available Subjects</Title>
+                <Title>{available_subjects.title}</Title>
                 <Text>
-                  Create custom landing pages with Omega that converts{" "}
-                  <br className="d-none d-md-block" /> more visitors than any
-                  website.
+                  {available_subjects.subtitle}
                 </Text>
               </div>
             </Col>
           </Row>
           <Row className="justify-content-center">
-            <Col
-              lg="4"
-              md="6"
-              className="mb-4"
-              data-aos="zoom-in"
-              data-aos-duration="750"
-              data-aos-once="true"
-              data-aos-delay="500"
-            >
-              <ContentCard>
-                Subject 1
-              </ContentCard>
-            </Col>
-            <Col
-              lg="4"
-              md="6"
-              className="mb-4"
-              data-aos="zoom-in"
-              data-aos-duration="750"
-              data-aos-once="true"
-              data-aos-delay="500"
-            >
-              <ContentCard>
-                Subject 2.
-              </ContentCard>
-            </Col>
-            <Col
-              lg="4"
-              md="6"
-              className="mb-4"
-              data-aos="zoom-in"
-              data-aos-duration="750"
-              data-aos-once="true"
-              data-aos-delay="500"
-            >
-              <ContentCard>Subject 3.</ContentCard>
-            </Col>
-            <Col
-              lg="4"
-              md="6"
-              className="mb-4"
-              data-aos="zoom-in"
-              data-aos-duration="750"
-              data-aos-once="true"
-              data-aos-delay="500"
-            >
-              <ContentCard>
-                Subject 4.
-              </ContentCard>
-            </Col>
-            <Col
-              lg="4"
-              md="6"
-              className="mb-4"
-              data-aos="zoom-in"
-              data-aos-duration="750"
-              data-aos-once="true"
-              data-aos-delay="500"
-            >
-              <ContentCard>
-                Subject 5.
-              </ContentCard>
-            </Col>
-            <Col
-              lg="4"
-              md="6"
-              className="mb-4"
-              data-aos="zoom-in"
-              data-aos-duration="750"
-              data-aos-once="true"
-              data-aos-delay="500"
-            >
-              <ContentCard>
-                Subject 5.
-              </ContentCard>
-            </Col>
-            <Col
-              lg="4"
-              md="6"
-              className="mb-4"
-              data-aos="zoom-in"
-              data-aos-duration="750"
-              data-aos-once="true"
-              data-aos-delay="500"
-            >
-              <ContentCard>
-                Subject 5.
-              </ContentCard>
-            </Col>
-            <Col
-              lg="4"
-              md="6"
-              className="mb-4"
-              data-aos="zoom-in"
-              data-aos-duration="750"
-              data-aos-once="true"
-              data-aos-delay="500"
-            >
-              <ContentCard>
-                Subject 5.
-              </ContentCard>
-            </Col>
-            <Col
-              lg="4"
-              md="6"
-              className="mb-4"
-              data-aos="zoom-in"
-              data-aos-duration="750"
-              data-aos-once="true"
-              data-aos-delay="500"
-            >
-              <ContentCard>
-                Subject 5.
-              </ContentCard>
-            </Col>
+            {
+              available_subjects.subjects.map(subject =>             <Col
+                lg="4"
+                md="6"
+                className="mb-4"
+                data-aos="zoom-in"
+                data-aos-duration="750"
+                data-aos-once="true"
+                data-aos-delay="500"
+              >
+                <ContentCard>
+                  {subject}
+                </ContentCard>
+              </Col>)
+            }
           </Row>
         </Container>
       </SectionStyled>
