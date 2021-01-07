@@ -115,13 +115,13 @@ const Footer = ({ isDark = true }) => {
           <CopyRightArea dark={isDark ? 1 : 0}>
             <Row className="align-items-center">
               <Col sm="6" className="text-sm-left text-center mb-2 mb-sm-0">
-                <p>&copy;TutorBerry</p>
+                <p>&copy;2021 Tutorberry</p>
               </Col>
               <Col sm="6" className="text-sm-right text-center">
                 <ul className="social-icons">
                   <li>
                     <a href="/#" target="_blank">
-                      <i className="icon icon-logo-twitter"></i>
+                      <i className="icon icon-logo-instagram"></i>
                     </a>
                   </li>
                   <li>
