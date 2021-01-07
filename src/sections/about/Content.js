@@ -14,7 +14,7 @@ const ContentImg = styled(Box)`
   overflow: hidden;
   max-height: 515px;
 `;
-const { about: about_us: {{Content: {title, subtitle}}}} = data;
+const { about: {about_us: {Content: {title, subtitle}}}} = data;
 
 const Content = () => (
   <>
