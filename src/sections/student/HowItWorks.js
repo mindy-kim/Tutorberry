@@ -146,7 +146,7 @@ const SliderText = styled(Box)`
   }
 `;
 
-const { home: { how_it_works}} = data;
+const { student: { how_it_works}} = data;
 
 const HowItWorks = () => {
   const slickSettings = {
