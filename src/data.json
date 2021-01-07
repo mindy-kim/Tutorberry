@@ -64,7 +64,10 @@
       "title": "Reviews from Parents",
       "subtitle": "Read what some families from our program have to say about their experience with Tutorberry.",
       "reviews": [
-        "Augustine is a very dependable person who goes above and beyond to help his student.",
+        {
+          "review": "Augustine is a very dependable person who goes above and beyond to help his student.",
+          "reviewer": "Augustine's student's tutor"
+        }
         "Linda is the best student tutor I've met ever! She knows exactly what young students need to learn and how to teach it effectively. She doesn't push students and give enough time to think and figure out answers by themselves.",
         "Julie is an amazing tutor my son loves her and she helps him so much. He is learning a lot and she quizzes him on his multiplication facts. She’s sweet and kind."
       ]
