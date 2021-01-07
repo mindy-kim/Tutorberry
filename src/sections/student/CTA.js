@@ -3,10 +3,13 @@ import styled from "styled-components";
 import { Container, Row, Col } from "react-bootstrap";
 
 import { Title, Button, Section, Text } from "../../components/Core";
+import data from "../../data.json";
 
 const SectionStyled = styled(Section)`
   /* border-bottom: 1px solid #eae9f2; */
 `;
+
+const { home: { cta}} = data;
 
 const CTA = () => (
   <>
@@ -15,9 +18,9 @@ const CTA = () => (
         <Row>
           <Col lg="8" xl="7">
             <div className="py-4">
-              <Title>Help your child succeed today!</Title>
+              <Title>{cta.title}</Title>
               <Text>
-                Get your free tutoring session today and help your child succeed academically despite COVID difficulties.
+                {cta.subtitle}
               </Text>
             </div>
           </Col>
@@ -27,7 +30,7 @@ const CTA = () => (
             className="d-flex align-items-center justify-content-lg-end mt-4 mt-md-0"
           >
             <div>
-              <Button>Register Now</Button>
+              <Button>{cta.button}</Button>
             </div>
           </Col>
         </Row>
