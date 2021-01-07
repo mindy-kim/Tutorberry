@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { rgba } from "polished";
 import { Container, Row, Col } from "react-bootstrap";
+import data from '../../data.json';
 
 import { Title, Button, Section, Box, Text, Span } from "../../components/Core";
 
@@ -67,6 +68,8 @@ const ULStyled = styled.ul`
   }
 `;
 
+const { home: { banner }} = data;
+
 const Banner = () => {
   return (
     <>
@@ -102,14 +105,14 @@ const Banner = () => {
                   </Title>
                   <Box mb={3}>
                     <ULStyled>
-                      <li>Fully Virtual</li>
-                      <li>100% Free</li>
-                      <li>Variety of Subjects</li>
+                      {
+                        banner.features.map(feature => <li>{feature}</li>)
+                      }
                     </ULStyled>
                   </Box>
                   <div className="d-flex flex-column align-items-start pt-2">
                     <a href = "https://forms.gle/F9Z2sgAHBV693JVg6">
-                      <Button mb={2}>Register for FREE Tutoring</Button>
+                      <Button mb={2}>{banner.button}</Button>
                     </a>
                   </div>
                 </Box>
