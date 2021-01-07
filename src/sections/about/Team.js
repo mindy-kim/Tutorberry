@@ -46,7 +46,7 @@ const TeamCard = ({ userImg, title, children, ...rest }) => (
     </div>
   </Box>
 );
-const { team: {title, subtitle, team}} = data;
+const { about: {team: {title, subtitle, team}}} = data;
 
 
 const Team = () => (
