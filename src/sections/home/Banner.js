@@ -111,7 +111,7 @@ const Banner = () => {
                     </ULStyled>
                   </Box>
                   <div className="d-flex flex-column align-items-start pt-2">
-                    <a href = "https://forms.gle/F9Z2sgAHBV693JVg6">
+                    <a href = "https://forms.gle/F9Z2sgAHBV693JVg6" target="_blank" rel="noopener noreferrer">
                       <Button mb={2}>{banner.button}</Button>
                     </a>
                   </div>
