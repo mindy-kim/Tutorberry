@@ -1,7 +1,7 @@
 {
   "home": {
     "banner": {
-      "title": "Free Online Tutoring for K-12 Students!!",
+      "title": "Free Online Tutoring for K-8 Students!",
       "features": [
         "Fully Virtual",
         "100% Free",
@@ -9,115 +9,147 @@
       ],
       "button": "Register for FREE Tutoring"
     },
-    
+    "how_it_works": {
+      "title": "How it Works",
+      "subtitle": "All students must follow this process in order to get started with our program.",
+      "steps": [
+        {
+          "title": "STEP 01",
+          "subtitle": "Register as a student.",
+          "description": "To become an official Tutorberry student, fill out the student registration form.\n                        Be sure to answer each question as completely and accurately as you can.\n                        The results we receive from your registration will determine which tutor you will be matched with and how we keep communication with you during your time in our program.\n                        Once you submit your registration, you should hear from our team within that same month."
+        },        {
+          "title": "STEP 02",
+          "subtitle": "                        Create a session plan with your tutor.\n",
+          "description": "After our team has reviewed your registration, you should receive an email regarding the tutor you have matched with. All subject selections, gender preferences, and special requests are taken into consideration.\n                        You will be working with your tutor to establish a session plan for the times and days of the week that best work for the both of you.\n                        Once all decisions have been finalized, your tutor will contact us with your session plan.\n                        Now that our team has your plan in our records, you are now ready to begin your tutoring!"
+        },       {
+          "title": "STEP 03",
+          "subtitle": "Get started with your sessions!",
+          "description": "Your tutor will be sending you a link to your meeting calls, and you will be responsible for providing material to work on for each session.\n                        Be sure to be on time to every scheduled session, unless directed otherwise.\n                        If you have to cancel a session, please be respectful of your tutor's time and notify in advance.\n                        Now, you're ready to begin! The Tutorberry team will continue to be in contact with you and will always be available for any questions or concerns you may have."
+        }
+      ]
+    },
     "info_section": {
       "features": [
         {
           "title": "Fully Student Run",
-          "description": "All tutors are experienced highschool students with backgrounds in a variety of subjects.\n              Every tutor has the experience and education necessary to guide students through difficult subjects."
+          "description": "All tutors are experienced highschool students with backgrounds in a variety of subjects.\n              Every tutor has the experience and education necessary to guide students through their selected subjects."
         },
         {
           "title": "Virtual Sessions",
-          "description": "Students meet with tutors one-on-one through video calls with the Zoom platform.\n              Communication is crucial, and Tutorberry will maintain close contact and always be open for questions or comments."   },
+          "description": "Sessions will occur on a regular basis and require both the tutor and student to meet on scheduled video calls.\n              Communication is crucial, and the Tutorberry team will maintain close contact and always be open for questions and concerns."   },
         {
           "title": "Wide Variety of Subjects",
-          "description": "Our tutors are experienced in and prepared to teach a variety of subjects, such as Math, Language Arts, Foreign Studies, and Social Studies.\n              Each tutor will work closely with the student."
-        }
-      ]
-    }
-  },
-  
-  "about": {
-    "title": "About Us",
-      "subtitle": "About our company",
-      "Content": {
-        "title": "              Our mission is to make your life easier.\n",
-        "subtitle": "Tutorberry is a student-led online volunteer program that provides free tutoring for students in grades 1 - 8. We understand that this is a confusing and stressful time for many, and we believe that students deserve easy and affordable access to the help needed for education.\n"
-      }
-  },
-  
-  "team": {
-    "title": "Meet the Team",
-      "subtitle": "Meet our awesome group of students",
-        "team": [
-        {
-          "name": "Louise Elliott",
-          "title": "Founder and CEO"
-        },
-        {
-          "name": "Louise Elliott",
-          "title": "Founder and CEO"
-        },
-        {
-          "name": "Louise Elliott",
-          "title": "Founder and CEO"
-        }
-      ]
-  },
-  
-  "student": {
-    "how_it_works": {
-      "title": "How it Works",
-      "subtitle": "How our volunteer based organization can provide free tutoring to students.",
-      "steps": [
-        {
-          "title": "STEP 01",
-          "subtitle": "Sign Up to get Matched",
-          "description": "Lorem Ipsum is the single greatest threat. We are not - we are not keeping up with other websites.\n                        Lorem Ipsum best not make any more threats to your website.\n                        It will be met with fire and fury like the world has never seen.\n                        Does everybody know that pig named Lorem Ipsum?"
-        },        {
-          "title": "STEP 02",
-          "subtitle": "                        The Tutor Contacts you about Subjects.\n",
-          "description": "Lorem Ipsum is the single greatest threat. We are not - we are not keeping up with other websites.\n                        Lorem Ipsum best not make any more threats to your website.\n                        It will be met with fire and fury like the world has never seen.\n                        Does everybody know that pig named Lorem Ipsum?"
-        },       {
-          "title": "STEP 03",
-          "subtitle": "We get your first session registered!",
-          "description": "Lorem Ipsum is the single greatest threat. We are not - we are not keeping up with other websites.\n                        Lorem Ipsum best not make any more threats to your website.\n                        It will be met with fire and fury like the world has never seen.\n                        Does everybody know that pig named Lorem Ipsum?"
+          "description": "Our tutors are experienced in and prepared to teach a variety of subjects, including mathematics, language arts, science, social studies/history, and foreign language.\n              Depending on your tutor, certain subtopics and advanced levels will be available."
         }
       ]
     },
-     "available_subjects": {
+    "available_subjects": {
       "title": "Available Subjects",
       "subtitle": "Create custom landing pages with Omega that converts",
       "subjects": [
-        "Subject 1", "Subject 2", "Subject 3"
+        "Mathematics", "Language Arts", "Science" , "Social Studies/History" , "Foreign Language"
       ]
     },
     "offer": {
-      "title": "Register Today",
-      "subtitle": "Get started with a free tutoring session today to help your kid succeed academically.\n",
+      "title": "Student Registration",
+      "subtitle": "Get started on your journey to academic success with your own personal tutor.\n",
       "button": "Register Today"
     },
     "reviews": {
       "title": "Reviews from Parents",
-      "subtitle": "Reviews from other appreciative parents",
+      "subtitle": "Read what some families from our program have to say about their experience with Tutorberry.",
       "reviews": [
-        "Review 1 here",
-        "Review 1 here",
-        "Review 1 here"
+        "Augustine is a very dependable person who goes above and beyond to help his student.",
+        "Linda is the best student tutor I've met ever! She knows exactly what young students need to learn and how to teach it effectively. Also she is very kind and calm so kids feel very comfortable with her. She doesn't push students and give enough time to think and figure out answers by themselves. She is very smart and capable, so we think she will perform excellent jobs in any field and place.",
+        "Julie is an amazing tutor my son loves her and she helps him so much. He is learning a lot and she quizzes him on his multiplication facts. She’s sweet and kind."
       ]
     },
     "faq": {
-      "questions": [
-        {
-          "title": "Question1?",
-          "answer": "Many questions"
-        },
-        {
-          "title": "Question1?",
-          "answer": "Many questions"
-        }
-      ]
+      "student_questions": {
+          "questions": [
+            {
+              "title": "How will sessions play out?",
+              "answer": "Many questions"
+            }
+            {
+              "title": "What kind of material will we work with?",
+              "answer": "Many questions"
+            }
+            {
+              "title": "How will sessions be scheduled and organized?",
+              "answer": "Many questions"
+            }
+            {
+              "title": "How will sessions be scheduled and organized?",
+              "answer": "Many questions"
+            }
+            {
+              "title": "How will sessions be scheduled and organized?",
+              "answer": "Many questions"
+
+            }
+          ]
+      }
+      "volunteer_questions": {
+          "questions": [
+            {
+              "title": "How will sessions play out?",
+              "answer": "Many questions"
+            }
+            {
+              "title": "What kind of material will we work with?",
+              "answer": "Many questions"
+            }
+            {
+              "title": "How will sessions be scheduled and organized?",
+              "answer": "Many questions"
+            }
+            {
+              "title": "How will sessions be scheduled and organized?",
+              "answer": "Many questions"
+            }
+            {
+              "title": "How will sessions be scheduled and organized?",
+              "answer": "Many questions"
+
+            }
+          ]
+      }
     },
     "cta": {
       "title": "Help your child succeed today!",
-      "subtitle": "                Get your free tutoring session today and help your child succeed academically despite COVID difficulties.\n",
+      "subtitle": "                Begin your journey to academic success with your personal tutor.\n",
       "button": "Register Now"
     }
   },
-  
+  "about": {
+    "title": "About Us",
+    "subtitle": "About our company",
+    "Content": {
+      "title": "              Our mission is to make your life easier.\n",
+      "subtitle": "Tutorberry is a student-led online volunteer program that provides free tutoring for students in grades 1 - 8. We understand that this is a confusing and stressful time for many, and we believe that students deserve easy and affordable access to the help needed for education.\n"
+    }
+  },
+  "team": {
+    "title": "Meet the Team",
+    "subtitle": "Meet our awesome group of students",
+    "team": [
+      {
+        "name": "Louise Elliott",
+        "title": "Founder and CEO"
+      },
+      {
+        "name": "Louise Elliott",
+        "title": "Founder and CEO"
+      },
+      {
+        "name": "Louise Elliott",
+        "title": "Founder and CEO"
+      }
+    ]
+  },
   "contact": {
     "phone": "+1-492-4918-395",
     "email": "+1-492-4918-395"
   }
-  
 }
