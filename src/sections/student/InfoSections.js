@@ -18,7 +18,7 @@ const IconImage = styled.img`
   max-height: 100px;
 `
 
-const { home: { info_section}} = data;
+const { student: { info_section}} = data;
 
 
 const FeatureCard = ({ iconImage, title, children, ...rest }) => (
