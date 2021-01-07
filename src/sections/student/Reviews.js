@@ -9,7 +9,7 @@ import imgR2 from "../../assets/image/jpeg/reviewer2.jpg";
 import imgR3 from "../../assets/image/jpeg/reviewer3.jpg";
 import data from "../../data.json";
 
-const { student: { reviews: { reviews: {review, reviewer}}}} = data;
+const { student: { reviews: { reviews}}} = data;
 
 const Reviews = () => {
   return (
@@ -27,9 +27,9 @@ const Reviews = () => {
             </Col>
           </Row>
           <Row className="justify-content-center mt-3">
-            {reviews.reviews.map((review, i) => <Col lg="4" md="6" className="mb-4 mb-lg-0">
+            {reviews.map((review, i) => <Col lg="4" md="6" className="mb-4 mb-lg-0">
               <ReviewCard
-                name=review.reviewer
+                name={review.reviewer}
                 image={imgR1}
                 stars={5}
               >
