@@ -1,8 +1,8 @@
 import React from "react";
 import Banner from "../sections/home/Banner";
-import PageWrapper from "../components/PageWrapper";
 import InfoSections from "../sections/home/InfoSections";
 import Offer from "../sections/home/Offer";
+import PageWrapper from "../components/PageWrapper";
 
 const LandingPage = () => {
   return (
