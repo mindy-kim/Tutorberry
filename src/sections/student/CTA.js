@@ -9,7 +9,7 @@ const SectionStyled = styled(Section)`
   /* border-bottom: 1px solid #eae9f2; */
 `;
 
-const { home: { cta}} = data;
+const { student: { cta}} = data;
 
 const CTA = () => (
   <>
