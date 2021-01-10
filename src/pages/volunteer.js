@@ -1,6 +1,5 @@
 import React from "react";
 import HowItWorks from "../sections/volunteer/HowItWorks";
-hello
 import Clients from "../sections/volunteer/Clients";
 import Reviews from "../sections/volunteer/Reviews";
 import Faq from "../sections/volunteer/Faq";
