@@ -1,8 +1,7 @@
 import React from "react";
 import HowItWorks from "../sections/volunteer/HowItWorks";
-import AvailableSubjects from "../sections/volunteer/AvailableSubjects";
+import Clients from "../sections/volunteer/Clients";
 import Reviews from "../sections/volunteer/Reviews";
-import Offer from "../sections/volunteer/Offer";
 import Faq from "../sections/volunteer/Faq";
 import CTA from "../sections/volunteer/CTA";
 import PageWrapper from "../components/PageWrapper";
@@ -12,8 +11,7 @@ const LandingPage = () => {
     <>
       <PageWrapper>
         <HowItWorks />
-        <AvailableSubjects />
-        <Offer />
+        <Clients />
         <Reviews />
         <Faq />
         <CTA />
