@@ -1,5 +1,5 @@
 import React from "react";
-import HowItWorks1 from "../sections/volunteer/HowItWorks1";
+import HowItWorks1 from "../sections/volunteer/HowItWorks";
 hello
 import Clients from "../sections/volunteer/Clients";
 import Reviews from "../sections/volunteer/Reviews";
