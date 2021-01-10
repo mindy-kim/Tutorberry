@@ -1,20 +1,20 @@
 import React from "react";
-import HowItWorks1 from "../sections/volunteer/HowItWorks1";
-import Clients1 from "../sections/volunteer/Clients1";
-import Reviews1 from "../sections/volunteer/Reviews1";
-import Faq1 from "../sections/volunteer/Faq1";
-import CTA1 from "../sections/volunteer/CTA1";
+import HowItWorks from "../sections/volunteer/HowItWorks";
+import Clients from "../sections/volunteer/Clients";
+import Reviews from "../sections/volunteer/Reviews";
+import Faq from "../sections/volunteer/Faq";
+import CTA from "../sections/volunteer/CTA";
 import PageWrapper from "../components/PageWrapper";
 
 const LandingPage = () => {
   return (
     <>
       <PageWrapper>
-        <HowItWorks1 />
-        <Clients1 />
-        <Reviews1 />
-        <Faq1 />
-        <CTA1 />
+        <HowItWorks />
+        <Clients />
+        <Reviews />
+        <Faq />
+        <CTA />
       </PageWrapper>
     </>
   );
