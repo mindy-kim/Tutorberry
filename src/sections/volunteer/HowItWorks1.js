@@ -148,7 +148,7 @@ const SliderText = styled(Box)`
 
 const { student: { how_it_works}} = data;
 
-const HowItWorks = () => {
+const HowItWorks1 = () => {
   const slickSettings = {
     dots: false,
     infinite: true,
@@ -215,4 +215,4 @@ const HowItWorks = () => {
   );
 };
 
-export default HowItWorks;
+export default HowItWorks1;
