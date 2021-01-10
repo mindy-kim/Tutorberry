@@ -19,4 +19,4 @@ const LandingPage = () => {
     </>
   );
 };
-export default volunteer;
+export default LandingPage;
