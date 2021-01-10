@@ -19,5 +19,5 @@ const LandingPage = () => {
     </>
   );
 };
-hello
 export default LandingPage;
+hello
