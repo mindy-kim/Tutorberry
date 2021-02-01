@@ -6,7 +6,7 @@ import Faq from "../sections/volunteer/Faq";
 import CTA from "../sections/volunteer/CTA";
 import PageWrapper from "../components/PageWrapper";
 
-const LandingPage = () => {
+const volunteer = () => {
   return (
     <>
       <PageWrapper>
@@ -19,4 +19,4 @@ const LandingPage = () => {
     </>
   );
 };
-export default LandingPage;
+export default volunteer;
