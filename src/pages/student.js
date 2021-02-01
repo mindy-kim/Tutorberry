@@ -6,7 +6,7 @@ import Faq from "../sections/student/Faq";
 import CTA from "../sections/student/CTA";
 import PageWrapper from "../components/PageWrapper";
 
-const LandingPage = () => {
+const student = () => {
   return (
     <>
       <PageWrapper>
@@ -19,4 +19,4 @@ const LandingPage = () => {
     </>
   );
 };
-export default LandingPage;
+export default student;
