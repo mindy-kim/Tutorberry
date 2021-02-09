@@ -8,10 +8,6 @@ export const menuItems = [
     label: "Student",
   },
   {
-    name: "volunteer",
-    label: "Volunteer",
-  },
-  {
     name: "about",
     label: "About",
   },
