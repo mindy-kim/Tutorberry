@@ -88,15 +88,14 @@
   "about": {
     "about_us": {
       "title": "About Us",
-      "subtitle": "About our company",
       "Content": {
         "title": "              Our mission is to make your life easier.\n",
-        "subtitle": "Tutorberry is a student-led online volunteer program that provides free tutoring for students in grades 1 - 8. We understand that this is a confusing and stressful time for many, and we believe that students deserve easy and affordable access to the help needed for education.\n"
+        "subtitle": "Tutorberry is a student-led online volunteer program that provides free tutoring for students in grades 1 - 8. We believe that students deserve easy and cost-free access to the help needed for education, as well as an opportunity to help others within this community.\n"
       }
     },
     "team": {
       "title": "Meet the Team",
-      "subtitle": "Meet the hard-working group of high school students that works to bring you the best online tutoring experience.",
+      "subtitle": "Meet the group of high school students who dedicate their time to bringing you the best online tutoring experience.",
       "team": [
         {
           "name": "Jubeen Park",
@@ -127,23 +126,27 @@
           "questions": [
             {
               "title": "How will sessions play out?",
-              "answer": "Many questions"
+              "answer": "Using the link your tutor provides, you will be joining a video call for your session. The content of the session is completely up to you and whatever material you provide in advance. If you have any specific requests for your tutor, be sure to notify ahead of time."
             },
             {
               "title": "What kind of material will we work with?",
-              "answer": "Many questions"
+              "answer": "The tutoring material is entirely up to you! You may send any screenshots, documents, or files of schoolwork you need help with, or any other academic work of your choosing."
             },
             {
               "title": "How will sessions be scheduled and organized?",
-              "answer": "Many questions"
+              "answer": "Before any sessions officially begin, you will need to discuss a certain schedule with your tutor. This session plan will include the days of the week and duration times of your sessions, which should be consistent. Once your decisions are finalized, your tutor will report back to us with your official session plan, so we will always be informed of your schedule. If any changes should arise, be sure to notify either your tutor or our team in advance."
             },
             {
-              "title": "How will sessions be scheduled and organized?",
-              "answer": "Many questions"
+              "title": "Can tutors get school credit for these volunteer hours?",
+              "answer": "Yes! Once you feel your time at Tutorberry is complete, you will submit your leave of absence to inform us of your completion. We will follow up shortly with your letter of verification, including the number of hours you have earned and a signature from our advisor. "
             },
             {
-              "title": "How will sessions be scheduled and organized?",
-              "answer": "Many questions"
+              "title": "Can we request for a different tutor in the middle of the month?",
+              "answer": "Definitely. If you feel that your match has turned out to be inadequate, you must submit a tutor request form. After we review your request, our team will match you with another suitable tutor in a timely manner. "
+            },
+            {
+              "title": "How can we contact tutors and the Tutorberry team?",
+              "answer": "The best way to reach our team is through our email, which can be found on our Contact page. We are also active on all social media platforms, so please do not hesitate to reach out to us!"
             }
           ]
       },
@@ -151,23 +154,27 @@
           "questions": [
             {
               "title": "How will sessions play out?",
-              "answer": "Many questions"
+              "answer": "Using the link your tutor provides, you will be joining a video call for your session. The content of the session is completely up to you and whatever material you provide in advance. If you have any specific requests for your tutor, be sure to notify ahead of time."
             },
             {
               "title": "What kind of material will we work with?",
-              "answer": "Many questions"
+              "answer": "The tutoring material is entirely up to you! You may send any screenshots, documents, or files of schoolwork you need help with, or any other academic work of your choosing."
             },
             {
               "title": "How will sessions be scheduled and organized?",
-              "answer": "Many questions"
+              "answer": "Before any sessions officially begin, you will need to discuss a certain schedule with your tutor. This session plan will include the days of the week and duration times of your sessions, which should be consistent. Once your decisions are finalized, your tutor will report back to us with your official session plan, so we will always be informed of your schedule. If any changes should arise, be sure to notify either your tutor or our team in advance."
             },
             {
-              "title": "How will sessions be scheduled and organized?",
-              "answer": "Many questions"
+              "title": "Can tutors get school credit for these volunteer hours?",
+              "answer": "Yes! Once you feel your time at Tutorberry is complete, you will submit your leave of absence to inform us of your completion. We will follow up shortly with your letter of verification, including the number of hours you have earned and a signature from our advisor. "
             },
             {
-              "title": "How will sessions be scheduled and organized?",
-              "answer": "Many questions"
+              "title": "Can we request for a different tutor in the middle of the month?",
+              "answer": "Definitely. If you feel that your match has turned out to be inadequate, you must submit a tutor request form. After we review your request, our team will match you with another suitable tutor in a timely manner. "
+            },
+            {
+              "title": "How can we contact tutors and the Tutorberry team?",
+              "answer": "The best way to reach our team is through our email, which can be found on our Contact page. We are also active on all social media platforms, so please do not hesitate to reach out to us!"
             }
           ]
       }
