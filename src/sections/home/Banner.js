@@ -10,6 +10,22 @@ import { device } from "../../utils";
 
 import svgStudy from "../../assets/image/svg/study.svg";
 
+const ImgRight = styled(Box)`
+  max-width: 80%;
+  margin-left: -35px;
+  @media ${device.sm} {
+    max-width: unset;
+    margin-left: -35px;
+    position: relative;
+    left: -35px;
+  }
+  @media ${device.md} {
+    margin-left: -85px;
+    position: relative;
+    left: -35px;
+  }
+`;
+
 const ULStyled = styled.ul`
   list-style: none;
   margin: 0;
@@ -68,6 +84,9 @@ const Banner = () => {
               data-aos-delay="500"
               data-aos-once="true"
             >
+              <ImgRight>
+                <img src={svgStudy} alt="" className="img-fluid" />
+              </ImgRight>
             </Col>
             <Col lg="8" xl="7">
               <div
