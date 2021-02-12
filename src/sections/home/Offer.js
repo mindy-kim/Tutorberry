@@ -22,8 +22,8 @@ const OfferWrapper = styled(Box)`
 `;
 
 const BtnContainer = styled(Box)`
-  margin-left: 45px;
-  margin-top: 30px;
+  margin-right: 45px;
+  margin-top: 45px;
   @media ${device.lg} {
     margin-left: auto;
     margin-top: auto;
