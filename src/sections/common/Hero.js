@@ -22,7 +22,7 @@ const Hero = ({ title, children, ...rest }) => {
       >
         <Container>
           <Row>
-            <Col lg="4">
+            <Col lg="6">
               <div>
                 <Title variant="hero">{title}</Title>
                 <Text>{children}</Text>
