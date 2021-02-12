@@ -53,7 +53,7 @@ const Offer = () => (
             </div>
             <a href = "https://docs.google.com/forms/d/e/1FAIpQLSf7l6CNQckJswlA-cug4HqhoYGBXv0I0P0SLK7wCwtXWFw4wg/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">
             <BtnContainer>
-              <Button padding="20px">{offer.button}</Button>
+              <Button margin="20px">{offer.button}</Button>
             </BtnContainer>
             </a>
           </div>
