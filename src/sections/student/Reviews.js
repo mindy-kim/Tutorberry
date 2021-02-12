@@ -4,6 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { Title, Section, Box, Text, Span } from "../../components/Core";
 import ReviewCard from "../../components/ReviewCard";
 
+import imgR from "../../assets/image/png/reviewer.png";
 import imgR1 from "../../assets/image/jpeg/reviewer1.jpg";
 import imgR2 from "../../assets/image/jpeg/reviewer2.jpg";
 import imgR3 from "../../assets/image/jpeg/reviewer3.jpg";
@@ -30,7 +31,7 @@ const Reviews = () => {
             {reviews.map((review, i) => <Col lg="4" md="6" className="mb-4 mb-lg-0">
               <ReviewCard
                 name={review.reviewer}
-                image={imgR1}
+                image={imgR}
                 stars={5}
               >
                 {review.review}
