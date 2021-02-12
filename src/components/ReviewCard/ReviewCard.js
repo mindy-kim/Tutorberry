@@ -44,7 +44,7 @@ const ReviewCard = ({
     </Text>
     <Box className={`d-flex justify-content-between mt-auto`}>
       <Box className="d-flex justify-content-center align-items-start" mr={3}>
-        <img src={image} alt="" className="img-fluid" />
+        <img src={image} alt="" className="img-fluid" height="43" width="43"/>
       </Box>
       <div className="flex-grow-1">
         <Title variant="card" mb={1}>
