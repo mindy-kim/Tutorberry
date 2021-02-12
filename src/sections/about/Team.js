@@ -9,7 +9,6 @@ import imgU2 from "../../assets/image/jpeg/about-team-2.jpeg";
 import imgU3 from "../../assets/image/jpeg/about-team-3.jpeg";
 import imgU4 from "../../assets/image/jpeg/about-team-4.jpeg";
 import imgU5 from "../../assets/image/jpeg/about-team-5.jpeg";
-import imgU6 from "../../assets/image/jpeg/about-team-6.jpeg";
 import data from "../../data.json";
 
 const CardImage = styled.div`
