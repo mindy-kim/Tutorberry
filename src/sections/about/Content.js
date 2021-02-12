@@ -4,8 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 import { Title, Section, Box, Text } from "../../components/Core";
 
-import imgContent1 from "../../assets/image/jpeg/easy-image-2-1.jpg";
-import imgContent2 from "../../assets/image/jpeg/easy-image-2-2.jpg";
+import imgContent1 from "../../assets/image/jpeg/about-team-6.jpeg";
 import data from "../../data.json";
 
 const ContentImg = styled(Box)`
@@ -33,14 +32,9 @@ const Content = () => (
           </Col>
         </Row>
         <Row className="mt-5">
-          <Col lg="4" sm="5" className="mb-4 ">
+          <Col lg="12" sm="12" className="mb-4">
             <ContentImg>
               <img src={imgContent1} alt="" className="img-fluid" />
-            </ContentImg>
-          </Col>
-          <Col lg="8" sm="7" className="mb-4">
-            <ContentImg>
-              <img src={imgContent2} alt="" className="img-fluid" />
             </ContentImg>
           </Col>
         </Row>
