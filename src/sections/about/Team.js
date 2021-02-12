@@ -67,9 +67,9 @@ const Team = () => (
         </Row>
         <Row className="align-items-center justify-content-center">
           {
-            team.map(t =>
+            team.map((t, i) =>
               <Col sm="6" md="5" lg="4" className="mt-3 mt-lg-4">
-                <TeamCard userImg={t.imgs} title={t.name}>
+                <TeamCard userImg={imgs[i]} title={t.name}>
                   {t.title}
                 </TeamCard>
               </Col>)
