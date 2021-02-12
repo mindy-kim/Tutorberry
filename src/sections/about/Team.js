@@ -48,6 +48,7 @@ const TeamCard = ({ userImg, title, children, ...rest }) => (
 );
 const { about: {team: {title, subtitle, team}}} = data;
 
+const imgs = [imgU1, imgU2, imgU3, imgU4, imgU5, imgU6];
 
 const Team = () => (
   <>
@@ -68,7 +69,7 @@ const Team = () => (
           {
             team.map(t =>
               <Col sm="6" md="5" lg="4" className="mt-3 mt-lg-4">
-                <TeamCard userImg={imgU1} title={t.name}>
+                <TeamCard userImg={t.imgs} title={t.name}>
                   {t.title}
                 </TeamCard>
               </Col>)
