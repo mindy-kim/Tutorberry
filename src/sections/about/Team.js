@@ -47,7 +47,7 @@ const TeamCard = ({ userImg, title, children, ...rest }) => (
 );
 const { about: {team: {title, subtitle, team}}} = data;
 
-const imgs = [imgU1, imgU2, imgU3, imgU4, imgU5, imgU6];
+const imgs = [imgU1, imgU2, imgU3, imgU4, imgU5];
 
 const Team = () => (
   <>
