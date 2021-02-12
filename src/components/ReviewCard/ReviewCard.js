@@ -5,12 +5,13 @@ import { Title, Box, Text } from "../../components/Core";
 import img5Star from "../../assets/image/png/5star.png";
 import img4Star from "../../assets/image/png/4star.png";
 
+import imgR from  "../../assets/image/png/reviewer.png";
 import imgR1 from "../../assets/image/jpeg/reviewer1.jpg";
 
 const ReviewCard = ({
   className,
   stars = 5,
-  image = imgR1,
+  image = imgR,
   name,
   company,
   children,
