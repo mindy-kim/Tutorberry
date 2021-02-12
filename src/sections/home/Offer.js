@@ -42,7 +42,6 @@ const Offer = () => (
         <OfferWrapper>
           <div className="d-flex flex-wrap">
             <div className="widget-image">
-              <img src={imgOfferBook} alt="" className="img-fluid" />
             </div>
             <div className="pt-3 pl-5">
               <Title variant="card" fontSize="24px" color="light" mb={3}>
